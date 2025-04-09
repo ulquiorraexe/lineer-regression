@@ -20,9 +20,18 @@ Make sure to have the following Python libraries installed to run the project:
 
 ## Installation
 1. Clone the repository:
-`git clone ulquiorraexe/lineer-regression`
-2. Install the required dependencies:
-`pip install numpy pandas scikit-learn matplotlib`
+   ```bash
+   gh repo clone ulquiorraexe/lineer-regression
+2. Navigate to the project directory:
+   ```bash
+   cd lineer-regression
+3. Install the required Python packages:
+   ```bash
+   pip install numpy pandas scikit-learn matplotlib
+4. Run the script:
+   ```bash
+   python linear_regression.py
+This will execute the linear regression model on the dataset, train the model, and output the results.
 
 ## Usage
 Once the dependencies are installed, you can run the Python script to train and evaluate the linear regression model. The script will:
